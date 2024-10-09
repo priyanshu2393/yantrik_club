@@ -1,0 +1,177 @@
+
+
+.gallery-container {
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #ff0000; /* Red color */
+    text-shadow: 1px 1px 2px #000000; /* Black outline */
+    position: absolute;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #333;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.fullscreen-overlay-gallery {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.fullscreen-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.fullscreen-overlay .close,
+.fullscreen-overlay .prev,
+.fullscreen-overlay .next {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.fullscreen-overlay .close {
+    top: 20px;
+    right: 20px;
+}
+
+.fullscreen-overlay .prev {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fullscreen-overlay .next {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.fullscreen-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.fullscreen-overlay .close,
+.fullscreen-overlay .prev,
+.fullscreen-overlay .next {
+    position: absolute;
+    color: #ffffff;
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.fullscreen-overlay .close {
+    top: 20px;
+    right: 20px;
+}
+
+.fullscreen-overlay .prev {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fullscreen-overlay .next {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* Add these styles to your CSS */
+
+/* Wrapper for entire page content */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  /* Main content container */
+  .main-content {
+    flex: 1 0 auto;
+    padding-bottom: 100px; /* Adjust based on your footer height */
+    position: relative;
+  }
+  
+  /* Adjust static title */
+  .static-title {
+    position: absolute; /* Change from fixed to absolute */
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vh;
+    z-index: 100;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .Gallerycontainer {
+      height: 70vh; /* Reduce height on smaller screens */
+      margin-top: 60px; /* Adjust top margin */
+    }
+    
+    .main-content {
+      padding-bottom: 80px; /* Reduce padding on smaller screens */
+    }
+  }
+  
+  @media screen and (max-height: 600px) {
+    .Gallerycontainer {
+      height: 60vh;
+    }
+  }
+  .carousel{
+    margin-top: 100px;
+  }
