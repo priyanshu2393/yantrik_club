@@ -5,7 +5,7 @@ import Solidworks from './components/solidworks';
 import CentreOFun from './components/centr';
 import Farewell from './components/farewell';
 import Junkyard from './components/junk';
-import WaterRocket from './components/water-rocket';
+// import WaterRocket from './components/water-rocket';
 import './styles/index.css';
 function App() {
   return (
