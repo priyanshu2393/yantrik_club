@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/common.css';
 const images = Object.values(import.meta.glob('../../../../src/Images2/water-rocket/*.jpg', { eager: true })).map(module => module.default);
 
-const Waterrocket = () => {
+const WaterRocket = () => {
     const [isFullscreen, setIsFullscreen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -51,4 +51,4 @@ const Waterrocket = () => {
     );
 };
 
-export default Waterrocket;
+export default WaterRocket;
