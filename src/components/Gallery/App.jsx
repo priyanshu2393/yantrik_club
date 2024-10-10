@@ -5,7 +5,7 @@ import Solidworks from './components/solidworks';
 import CentreOFun from './components/centr';
 import Farewell from './components/farewell';
 import Junkyard from './components/junk';
-// import WaterRocket from './components/water-rocket';
+import WaterRocket from './components/water-rocket';
 import './styles/index.css';
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route path="/centre-o-fun" element={<CentreOFun />} />
         <Route path="/farewell" element={<Farewell />} />
         <Route path="/junkyard-wars" element={<Junkyard />} />
-{/*         <Route path="/water-rocket" element={<WaterRocket />} /> */}
+        <Route path="/water-rocket" element={<WaterRocket />} />
       </Routes>
     
   );
