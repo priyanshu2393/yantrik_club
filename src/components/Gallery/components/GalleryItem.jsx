@@ -5,9 +5,8 @@ import FullscreenModal from './FullscreenModal';
 
 // Import all images
 import solidworkPoster from '../../Posters/Posters/solidwork.jpg';
-import rocketPoster2017 from '../../Posters/Posters/blue-birds-nest-shape-rocket.jpg';
+import rocketPoster from '../../Posters/Posters/blue-birds-nest-shape-rocket.jpg';
 import centrePoster from '../../Posters/Posters/soap-bubble-2403673_1280.jpg';
-import rocketPoster2022 from '../../Posters/Posters/view-3d-space-rocket-model.jpg';
 import junkyardPoster from '../../Posters/Posters/ai-generated-8208568_1280.jpg';
 import farewellPoster from '../../Posters/Posters/farewell.jpeg';
 
@@ -23,19 +22,14 @@ function GalleryItem() {
             link: "/gallery/solidworks"
         },
         {
-            image: rocketPoster2017,
-            name: "Water Rocket 2K17",
-            link: "/gallery/water-rocket-2k17"
+            image: rocketPoster,
+            name: "Water Rocket",
+            link: "/gallery/water-rocket"
         },
         {
             image: centrePoster,
             name: "Centre O Fun",
             link: "/gallery/centre-o-fun"
-        },
-        {
-            image: rocketPoster2022,
-            name: "Water Rocket 2K22",
-            link: "/gallery/water-rocket-2k22"
         },
         {
             image: junkyardPoster,
