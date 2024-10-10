@@ -9,7 +9,7 @@ import WaterRocket from './components/water-rocket';
 import './styles/index.css';
 function App() {
   return (
-
+    <Router> {/* Wrap Routes in Router */}
       <Routes>
         <Route path="/" element={<GalleryItem />} />
         <Route path="/solidworks" element={<Solidworks />} />
