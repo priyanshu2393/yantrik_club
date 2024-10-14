@@ -30,7 +30,7 @@ const ThreeScene = () => {
 
       // Load the gears model
       const gearLoader = new GLTFLoader();
-      gearLoader.load('./src/assets/ImageToStl.com_gear.glb', (gltf) => {
+      gearLoader.load('./src/ImageToStl.com_gear.glb', (gltf) => {
         // Determine if the screen is mobile
         const isMobile = window.innerWidth <= 1200;
 

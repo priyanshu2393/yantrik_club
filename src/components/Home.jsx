@@ -87,7 +87,7 @@ const LandingPage = () => {
       </div>
 
       <div className="container" id="container2">
-        <div className= "ls" style={{ margin: "10px", border: "10px", boxShadow: "0px 0px 5px 0.25px #6e6363", width: "60%", borderRadius: "10px", display: "flex", alignContent: "center", justifyContent: "center", marginTop: "70px", fontFamily: "Audiowide", height: '100px' }}>
+        <div className= "ls" style={{}}>
           <h1 style={{ color: 'white', border: "2px", fontSize: '2.8em', marginTop: '20px' }}>Sessions</h1>
         </div>
       </div>

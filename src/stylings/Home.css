@@ -118,8 +118,13 @@ body {
     font-size: 1rem;
 
   }
+  .inner-child{
+    width: 70%;
+  }
 
-  
+  .ls{
+    width: 80%;
+  }
   .intro .text h4 {
     margin-right: 0;
     margin-bottom: 10px;
@@ -319,6 +324,9 @@ body {
   .timeline{
     width: 105%;
   }
+  .ls{
+    width: 80%;
+  }
 }
 .inner-child{
   width: 50%;
@@ -341,7 +349,9 @@ body {
   transform: translateY(50px);
   transition: opacity 0.5s, transform 0.8s;
 }
-
+.ls{
+  margin: 10px; border: 10px; box-shadow: 0px 0px 5px 0.25px #6e6363; width: 60% ;border-radius: 10px; display: flex ; align-items: center ; justify-content: center; margin-top: 70px ; font-family: Audiowide; height: 100px; 
+}
 .session-item.visible {
   opacity: 1;
   transform: translateY(0);
@@ -390,6 +400,9 @@ body {
     width: 90%;
     padding: 10px;
   }
+  .inner-child{
+    width: 70%;
+  }
 
   .intro img {
     max-width: 100%;
@@ -407,6 +420,9 @@ body {
   }
   .typewriter h1{
     font-size: 1.9rem;
+  }
+  .ls{
+    width: 80%;
   }
 }
 
@@ -431,13 +447,26 @@ body {
   .typewriter h1{
     font-size: 1.8rem;
   }
+  .ls{
+    width: 80%;
+  }
+  .inner-child{
+    width: 70%;
+  }
+  .info-section{
+    overflow-y: hidden;
+    height: 350px;
+  }
 }
 @media (max-width: 480px) {
   .intro {
     width: 100%;
     flex-direction: column;
-    height: 470px;
+    height: 420px;
     overflow-y : auto;
+  }
+  .ls{
+    width: 80%;
   }
   .typewriter h1{
     font-size: 1.6rem;
@@ -446,9 +475,51 @@ body {
     width: 100%;
     height: 150px; /* For very small screens */
   }
-
+  .info-section{
+    overflow-y: hidden;
+    height: 350px;
+  }
   .intro .text h4 {
     font-size: 0.8rem;
+  }
+  .inner-child{
+    width: 70%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 380px) {
+  .intro {
+    width: 100%;
+    flex-direction: column;
+    height: 380px;
+    overflow-y : auto;
+  }
+  .typewriter h1{
+    font-size: 1.4rem;
+  }
+  .intro img {
+    width: 100%;
+    height: 100px; /* For very small screens */
+  }
+
+  .intro .text h4 {
+    font-size: 0.7rem;
+  }
+  .inner-child{
+    width: 70%;
+  }
+  .body{
+    overflow-x: hidden;
+  }
+  .ls {
+    
+  }
+
+  .info-section{
+    overflow-y: hidden;
+    height: 350px;
   }
 }
 * {
